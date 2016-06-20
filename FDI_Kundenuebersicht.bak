@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.5">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="18">odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo."DTKundStamm"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DE000FD_Prod\ms
+Catalog=FD_205_neu
+Table=dbo."DTKundStamm"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Kunde" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="SuchName" size="50" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="Name1" size="255" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="Name2" size="255" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="Name3" size="255" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="Strasse" size="255" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="Land" size="10" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="PLZ" size="7" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="Ort" size="255" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="MWSt" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Float" />
+            <Field name="Telefon" size="20" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="Fax" size="20" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="NameNr" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="Tour" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="FibuNr" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="Helferin1" size="30" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="Helferin2" size="30" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="RechNr" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="LastAufNr" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="KontoAufstKz" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="Modem" size="100" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="Kundenbereich" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="Kundentyp" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="Kundenart" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="AbrechNr" size="20" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="DepotKunde" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="PostKunde" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="LeistungSort" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="ERechKKunde" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="ERechPKunde" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="KontoKKunde" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="KontoPKunde" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="PatPass" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="MatSchein" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="RechZahnkreuz" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="DispoZahnkreuz" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="Vorplanung" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="BetreuTechniker" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="Lieferschein" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="Faelligkeit" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="PatName" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="SaldoDruck" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="KontoAufstDruck" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="EinzelRechDruck" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="ListenDruck" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="BankEinzug" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="BankLeitZahl" size="20" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="KontoNummer" size="20" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="VoreinstellungGold" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="Zahlungsbedingung" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="RabattProzent" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Double" />
+            <Field name="RabattSchalter" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="KundenKlasse" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="UhrZeitTourBeginn" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="DateTime" />
+            <Field name="Runden" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="TelPrivat" size="50" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="Mobil" size="50" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="AnzahlSkontoTage" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="RechPosAusPLK" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="AktivBis" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="DateTime" />
+            <Field name="UeberweisungsTraeger" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="Anlagedatum" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="DateTime" />
+            <Field name="FlemmingKundenArt" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="KundenBetreuer" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="Steuer_ID" size="50" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_WString" />
+            <Field name="AnzahlNettoTage" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="EinmalKunde" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="DarfTechnikerLeihen" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="Abrechnungsgesellschaft" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="AbrechnungsgesellschaftProzent" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Double" />
+            <Field name="AbrechnungsgesellschaftAb" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="DateTime" />
+            <Field name="AbrechnungsgesellschaftBis" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="DateTime" />
+            <Field name="Laborkennung" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+            <Field name="rowguid" size="255" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="V_String" />
+            <Field name="ID" source="File: odb:Provider=SQLOLEDB.1;Persist Security Info=False;User ID=ms;Initial Catalog=FD_205_neu;Data Source=DE000FD_Prod\ms;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DE000NB1411;Use Encryption for Data=False;Tag with column collation when possible=False|dbo.&quot;DTKundStamm&quot;" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Kunde" selected="True" />
+            <SelectField field="SuchName" selected="True" />
+            <SelectField field="Name1" selected="True" />
+            <SelectField field="Name2" selected="True" />
+            <SelectField field="Name3" selected="True" />
+            <SelectField field="Strasse" selected="True" />
+            <SelectField field="Land" selected="True" />
+            <SelectField field="PLZ" selected="True" />
+            <SelectField field="Ort" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="294" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="SuchName" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SuchName - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="438" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="25" MaxRecords="">\\de131ADS01\Gruppen205\Kundenübersicht\Kundenübersicht.xlsx|Sheet1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>RemoveFile</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Kundenübersicht.xlsx
+Table=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>FDI_Kundenuebersicht</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
